@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(181, 127, 232);
+}
+
+.img-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 600px;   
+  height: auto;
+  display: block;
+}
+
+.img-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.hotspot-btn {
+  position: absolute;
+  bottom: 38%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 6px 12px;
+  background: rgb(194, 88, 153);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  position: absolute;
+  bottom: calc(38% + 60px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(231, 67, 144, 0.85);
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  max-width: 260px;
+  text-align: center;
+}
